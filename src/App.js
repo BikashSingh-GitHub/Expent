@@ -1,13 +1,24 @@
+
+
 import React from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
-import WorkflowAutomation from './WorkflowAutomation';
+// import Controls from './Controls';
+// import Background from './Background';
+import ReactFlow from './ReactFlow';
+{/* <WorkflowAutomation />
+import WorkflowAutomation from './WorkflowAutomation'; */}
 
 function App() {
   return (
     <div>
-       <WorkflowAutomation />
-      <Navbar />
+       {/* 
+      <Controls/>
+    <Background/> */}
+   
+   <ReactFlow />
+      
+       <Navbar />
       <Home />
     </div>
   );
